@@ -1,5 +1,7 @@
 # Internet_technologies_labs
-Лабораторные по Итеху за второй семестр.
+Лабораторная по Итеху за второй семестр.
+Выполнил студент группы КИУКИ-19-4, Романенко Антон Александрович.
+
 ![image](https://user-images.githubusercontent.com/92305754/169646793-c396769f-135b-4a82-8644-81481c3083f0.png)
 
 ![image](https://user-images.githubusercontent.com/92305754/169646724-20991fe6-233e-4ffa-9fc3-8f3bb1bde2f0.png)

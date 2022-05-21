@@ -13,7 +13,6 @@
         <div class="row">
             <div class="col-md-8">
                 <form action="global-statistic.php" method="POST">
-
             <p>
                 <label for="date">Дата 1: </label>
                 <input type="date" id="date1" name="date_1" />
@@ -63,22 +62,17 @@
                             <td>  {$stat['name']}  </td> 
                             <td>  {$stat['IP']}  </td> 
                             </tr>";
-                            
                         }
                     }
                     else{
                         echo "<p class='text-warning '> Введите дату наконец-то </p>";
                     }
                 }
-               
-               
                 ?>
                 </table>
             </div>
         </div>
-        
     </div>
 </main>
 
 <?php require "parts/tail.html";
-/* SELECT a.start, a.stop, a.in_traffic, a.out_traffic, b.name, b.IP FROM SEANSE AS a INNER JOIN client AS b ON a.client_id = b.id WHERE date(a.start) >"2022-03-06 10:00:00" and date(a.stop)<"2022-03-20 10:00:00" */
